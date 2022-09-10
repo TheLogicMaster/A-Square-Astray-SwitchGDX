@@ -29,6 +29,8 @@ public class AudioManager implements ISettingsChangeListener, IAdListener {
     public final Sound teleportSound;
     public final Sound gravitySwitchSound;
     public final Sound unlockLevelSound;
+    public final Sound successSound;
+    public final Sound failureSound;
 
     // These should be treated as sounds
     public final Music successMusic;
@@ -57,6 +59,8 @@ public class AudioManager implements ISettingsChangeListener, IAdListener {
         teleportSound = AssetManager.getInstance().getSound("teleport");
         gravitySwitchSound = AssetManager.getInstance().getSound("gravity_switch");
         unlockLevelSound = AssetManager.getInstance().getSound("unlock_level");
+        successSound = AssetManager.getInstance().getSound("success");
+        failureSound = AssetManager.getInstance().getSound("failure");
 
         successMusic = AssetManager.getInstance().getMusic("success");
         failureMusic = AssetManager.getInstance().getMusic("failure");

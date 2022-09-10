@@ -13,6 +13,7 @@ public class Strings {
     private I18NBundle bundle;
 
     private Strings() {
+        I18NBundle.setSimpleFormatter(true);
         FileHandle fileHandle = Gdx.files.internal("bundles/bundle");
         bundle = I18NBundle.createBundle(fileHandle);
     }

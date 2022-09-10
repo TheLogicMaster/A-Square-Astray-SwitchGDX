@@ -91,7 +91,7 @@ public class MainMenuScreen implements Screen {
         buildUI();
 
         AudioManager.playMusic(AudioManager.getInstance().music);
-        AudioManager.playMusic(AudioManager.getInstance().musicSlow, 0);
+//        AudioManager.playMusic(AudioManager.getInstance().musicSlow, 0);
     }
 
     @Override

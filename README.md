@@ -1,5 +1,6 @@
 # A Square Astray
 A Square Astray is a mobile Android and iOS game. It was built using libgdx, Tiled, and Box2D.
+Ported to Switch using [SwitchGDX](https://github.com/TheLogicMaster/switch-gdx).
 
 ### Trailer
 https://www.youtube.com/watch?v=N2-r2TNHG7A

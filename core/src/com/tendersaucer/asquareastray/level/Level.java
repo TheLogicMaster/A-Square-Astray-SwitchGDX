@@ -133,10 +133,10 @@ public class Level extends Stage implements ILevelStateChangeListener, IGravityS
             }
 
             if (newState.equals(LevelState.DONE_SUCCESS)) {
-                AudioManager.playMusic(AudioManager.getInstance().successMusic);
+                AudioManager.playSound(AudioManager.getInstance().successSound);
                 saveEarnedStars();
             } else {
-                AudioManager.playMusic(AudioManager.getInstance().failureMusic);
+                AudioManager.playSound(AudioManager.getInstance().failureSound);
             }
         } else if (newState.equals(LevelState.COUNTDOWN)) {
             scheduleLevelStart(COUNTDOWN_SECONDS);

@@ -107,7 +107,7 @@ public class FontGenerator {
             texRegions.add(new TextureRegion(tex));
         }
         BitmapFont font = new BitmapFont((BitmapFont.BitmapFontData) fontData, texRegions, false);
-        saveFontToFile(font, fontSize, fontName, packer);
+//        saveFontToFile(font, fontSize, fontName, packer);
         generator.dispose();
         packer.dispose();
         return font;
