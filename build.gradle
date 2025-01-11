@@ -31,8 +31,8 @@ allprojects {
         aiVersion = '1.8.0'
         robopodsVersion = '2.2.3'
         gdxPayVersion = '1.3.0'
-        clearwingVersion = '50a2ddc1cf'
-        switchGdxVersion = '03f85d000a'
+        clearwingVersion = '3.0.0'
+        switchGdxVersion = '3.0.0'
     }
 
     repositories {
